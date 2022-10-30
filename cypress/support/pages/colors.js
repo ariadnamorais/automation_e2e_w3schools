@@ -2,7 +2,7 @@ class Colors {
 
     colorsGroups() {
         cy.get('[href="colors_groups.asp"]')
-            .click()
+            .click({force: true})
     }
 
     url() {

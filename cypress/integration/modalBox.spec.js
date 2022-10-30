@@ -40,7 +40,6 @@ describe('Cenário 01 - Modal Box', () => {
             before(function () {
                 HomePage.tutorials()
                 HomePage.learnHowTo()
-                cy.get('#leftmenuinnerinner').scrollTo(0, 4000)
                 HowTo.modalBoxes()
             })
 
