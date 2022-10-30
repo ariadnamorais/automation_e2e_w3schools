@@ -1,0 +1,22 @@
+Feature: How To Make a Modal Box With CSS and JavaScript
+
+    Pré-requisitos
+    Acessar o site: https://www.w3schools.com/
+
+    CT01 - Acessar How TO - CSS/JS Modal
+    Dado que estou no site w3schools
+    Quando eu clicar em Tutorials -> Learn How To
+    E no menu lateral clicar em Modal Boxes 
+    Então devo ser direcionado para How TO - CSS/JS Modal (https://www.w3schools.com/howto/howto_css_modals.asp)
+
+    CT02 - Abrir Modal
+    Dado que estou na tela How TO - CSS/JS Modal
+    Quando eu clicar no botão 'Open Modal'
+    Então o modal deve ser exibido
+    E no corpo deve conter: 'Hello World! Modals are awesome!'
+
+    CT03 - Fechar Modal
+    Dado que estou visualizando o modal header
+    Quando eu clicar no botão [X]
+    Então o modal deve sumir
+    E devo continuar visualizando a tela How TO - CSS/JS Modal

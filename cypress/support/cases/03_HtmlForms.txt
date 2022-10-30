@@ -1,0 +1,17 @@
+Feature: HTML Forms e Tryit Editor v3.7 - HTML Forms
+
+    Pré-requisitos
+    Acessar o site: https://www.w3schools.com/
+
+    CT01 - Acessar HTML Forms
+    Dado que estou no site w3schools
+    Quando eu clicar em Tutorials -> Learn HTML
+    E no menu lateral clicar em HTML Forms
+    Então devo ser direcionado para HTML Forms (https://www.w3schools.com/html/html_forms.asp)
+
+    CT02 - Gravar dados
+    Dado que estou na tela HTML Forms
+    Quando eu clicar em "Try it yourself" no primeiro exercício
+    E o navegador abrir uma nova aba
+    E quando eu inserir nome, sobrenome e clicar em 'Submit'
+    Então a aplicação deve gravar os dados corretamente

@@ -1,0 +1,21 @@
+Feature: HTML Color Groups
+
+    Pré-requisitos
+    Acessar o site: https://www.w3schools.com/
+
+    CT01 - Acessar HTML Color Groups
+    Dado que estou no site w3schools
+    Quando eu clicar em Tutorials -> Learn Colors
+    E no menu lateral clicar em Color Groups 
+    Então devo ser direcionado para HTML Color Groups (https://www.w3schools.com/colors/colors_groups.asp)
+
+    CT02 - Abrir Modal
+    Dado que estou na tela HTML Color Groups
+    Quando eu visualizar as tabelas de cores
+    Então a cor 'Black', o hexa deve ser igual a #000000
+    E a cor 'Maroon', o hexa deve ser igual a #800000
+    E a cor 'Gold', o hexa deve ser igual a #FFD700
+    E a cor 'Cyan', o hexa deve ser igual a #00FFFF
+    E a cor 'Blue', o hexa deve ser igual a #0000FF
+    E a cor 'Silver', o hexa deve ser igual a #C0C0C0
+    E a cor 'BlueViolet', o hexa deve ser igual a #8A2BE2
