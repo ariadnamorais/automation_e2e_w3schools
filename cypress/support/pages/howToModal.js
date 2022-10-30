@@ -2,7 +2,7 @@ class HowToModal {
 
     modalBoxes() {
         cy.get('#leftmenuinnerinner > [href="howto_css_modals.asp"]')
-            .click()
+            .click({force: true})
     }
 }
 

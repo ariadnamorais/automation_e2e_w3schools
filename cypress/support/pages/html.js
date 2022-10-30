@@ -2,7 +2,7 @@ class Html {
 
     htmlForms() {
         cy.get('[href="html_forms.asp"]')
-            .click()
+            .click({force: true})
     }
 
     url() {

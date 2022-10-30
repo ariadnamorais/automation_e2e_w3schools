@@ -2,7 +2,7 @@ class HomePage {
 
     tutorials() {
         cy.get('#navbtn_tutorials')
-            .click()
+            .click({force: true})
     }
 
     learnHowTo() {

@@ -7,12 +7,12 @@ class ModalBoxes {
 
     openModal() {
         cy.get('.w3-dark-grey')
-            .click()
+            .click({force: true})
     }
 
     closeModal() {
         cy.get('.w3-display-container > .w3-button')
-            .click()
+            .click({force: true})
     }
 }
 
