@@ -10,6 +10,17 @@
 [![Generic badge](https://img.shields.io/badge/Node-v16.13.0-blue.svg)](https://www.npmjs.com/package/node)
 
 
+<h1 align="center">Documentação</h1>
+
+Documentação: [/cypress/support/cases](https://github.com/ariadnamorais/automation_e2e_w3schools/tree/master/cypress/support/cases)
+
+- Cenário 01 - [/cypress/support/cases/01_ModalBoxes.txt](https://github.com/ariadnamorais/automation_e2e_w3schools/blob/master/cypress/support/cases/01_ModalBoxes.txt)
+
+- Cenário 02 - [/cypress/support/cases/02_ColorGroups.txt](https://github.com/ariadnamorais/automation_e2e_w3schools/blob/master/cypress/support/cases/02_ColorGroups.txt)
+- Cenário 03 - [/cypress/support/cases/03_HtmlForms.txt](https://github.com/ariadnamorais/automation_e2e_w3schools/blob/master/cypress/support/cases/03_HtmlForms.txt)
+
+
+
 <h1 align="center">Pré-requisitos</h1>
 
 [![Generic badge](https://img.shields.io/badge/Node-Download-green.svg)](https://nodejs.org/en/download/)
@@ -50,7 +61,7 @@ $ npx cypress run
 
 <h1 align="center">Executar CI com git actions</h1>
 
-//Obs.: Além do método a seguir, ao fazer push no código, o workflow é executado.
+Obs.: Além do método a seguir, ao fazer push no código, o workflow é executado.
 
 1. Clique aqui: [![Generic badge](https://img.shields.io/badge/GitHubActions-blue.svg)](https://github.com/ariadnamorais/automation_e2e_w3schools/actions/runs/3354216111)
 2. Clique no Job: "ui-chrome-tests" 
@@ -76,7 +87,7 @@ And more 💥💥💥
 
 <img src="https://user-images.githubusercontent.com/49946466/198864285-752176c3-6562-42e3-ad3a-70a6b30ea747.png" alt="drawing" width="700"/>
 
-
+<h1 align="center"></h1>
 <h1 align="center"> Autora </h1>
 
 🥷🏼 Ariadna Morais
@@ -87,4 +98,3 @@ And more 💥💥💥
 
 📲 Rede de contato:
 [Linkedin](https://www.linkedin.com/in/ariadna-patricio-morais/)
-
