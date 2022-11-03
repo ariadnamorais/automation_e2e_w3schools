@@ -15,9 +15,10 @@
 Documentação: [/cypress/support/cases](https://github.com/ariadnamorais/automation_e2e_w3schools/tree/master/cypress/support/cases)
 
 - Cenário 01 - [/cypress/support/cases/01_ModalBoxes.txt](https://github.com/ariadnamorais/automation_e2e_w3schools/blob/master/cypress/support/cases/01_ModalBoxes.txt)
-
 - Cenário 02 - [/cypress/support/cases/02_ColorGroups.txt](https://github.com/ariadnamorais/automation_e2e_w3schools/blob/master/cypress/support/cases/02_ColorGroups.txt)
 - Cenário 03 - [/cypress/support/cases/03_HtmlForms.txt](https://github.com/ariadnamorais/automation_e2e_w3schools/blob/master/cypress/support/cases/03_HtmlForms.txt)
+- Motivos para usar Cypress - [talkingabouttesting](https://talkingabouttesting.com/2021/03/18/10-motivos-para-voce-usar-cypress-na-automacao-de-testes-web/)
+- Motivos para usar Page Object - [lambdageeks](https://pt.lambdageeks.com/page-object-model-cypress-example/) (Código limpo e facilmente compreensível)
 
 
 
