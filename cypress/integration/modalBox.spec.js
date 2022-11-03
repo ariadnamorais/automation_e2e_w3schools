@@ -27,26 +27,18 @@ describe('Cenário 01 - Modal Box', () => {
 
     context('Dado que estou na tela How TO - CSS/JS Modal', () => {
 
-        before(function () {
-            cy.visit('')
-            HomePage.tutorials()
-            HomePage.learnHowTo()
-            HowTo.modalBoxes()
-            ModalBoxes.url()
-        })
-
         context('Quando eu clicar no botão Open Modal', () => {
 
             before(function () {
+                cy.visit('')
                 HomePage.tutorials()
                 HomePage.learnHowTo()
                 HowTo.modalBoxes()
+                ModalBoxes.url()
             })
 
-            it('Então o modal deve ser exibido', () => {
+            it('Então o modal deve ser exibido contendo: "Hello World! Modals are awesome!"', () => {
                 ModalBoxes.openModal()
-            })
-            it('E no corpo deve conter: "Hello World! Modals are awesome!"', () => {
                 cy.get('.w3-modal-content > div.w3-container')
                     .should('have.text', '\n      Hello World!\n      Modals are awesome!\n    ')
             })
@@ -61,10 +53,6 @@ describe('Cenário 01 - Modal Box', () => {
             HomePage.learnHowTo()
             HowTo.modalBoxes()
             ModalBoxes.url()
-            HomePage.tutorials()
-            HomePage.learnHowTo()
-            cy.get('#leftmenuinnerinner').scrollTo(0, 4000)
-            HowTo.modalBoxes()
             ModalBoxes.openModal()
         })
 
